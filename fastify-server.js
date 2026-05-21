@@ -214,4 +214,5 @@ const start = async () => {
   }
 };
 
-start();
+export default fastify;
+if (import.meta.main) start();
