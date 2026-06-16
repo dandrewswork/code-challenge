@@ -214,5 +214,8 @@ const start = async () => {
   }
 };
 
-export default fastify;
-if (import.meta.main) start();
+// Can be useful for testing
+//export default fastify;
+//if (import.meta.main) start();
+
+start();
